@@ -1,0 +1,15 @@
+21:19:26 **** Rebuild of configuration Debug for project packetUnionBitField ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:42:38: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   42 |         printf("Size of union is %I64u\n", sizeof(packet));
+      |                                  ~~~~^     ~~~~~~~~~~~~~~
+      |                                      |     |
+      |                                      |     long long unsigned int
+      |                                      unsigned int
+      |                                  %I64llu
+gcc -o packetUnionBitField.exe main.o 
+
+21:19:29 Build Finished. 0 errors, 1 warnings. (took 3s.41ms)
+

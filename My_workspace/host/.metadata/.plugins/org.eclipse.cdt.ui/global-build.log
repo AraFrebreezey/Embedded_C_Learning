@@ -1,0 +1,4 @@
+10:42:49 **** Incremental Build of configuration Debug for project ibm ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ibm.exe main.o 

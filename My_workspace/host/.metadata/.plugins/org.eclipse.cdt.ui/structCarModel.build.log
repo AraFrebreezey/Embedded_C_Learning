@@ -1,0 +1,18 @@
+16:20:42 **** Incremental Build of configuration Debug for project structCarModel ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:34:39: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   34 |         printf("Size of carModel: %I64u", sizeof(struct carModel));
+      |                                   ~~~~^   ~~~~~~~~~~~~~~~~~~~~~~~
+      |                                       |   |
+      |                                       |   long long unsigned int
+      |                                       unsigned int
+      |                                   %I64llu
+..\main.c:23:25: warning: variable 'carFord' set but not used [-Wunused-but-set-variable]
+   23 |         struct carModel carFord = {.carWeight = 1900.96,.carNumber = 4031, .carPrice = 35000,.carMaxSpeed = 160};
+      |                         ^~~~~~~
+gcc -o structCarModel.exe main.o 
+
+16:20:43 Build Finished. 0 errors, 2 warnings. (took 587ms)
+

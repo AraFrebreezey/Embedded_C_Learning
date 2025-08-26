@@ -1,0 +1,7 @@
+17:26:23 **** Incremental Build of configuration Debug for project WhilePrintEven ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o WhilePrintEven.exe main.o 
+
+17:26:23 Build Finished. 0 errors, 0 warnings. (took 587ms)
+

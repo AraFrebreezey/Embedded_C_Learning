@@ -1,0 +1,6 @@
+15:41:24 **** Incremental Build of configuration Debug for project packetStruct ****
+Info: Internal Builder is used for build
+gcc -o packetStruct.exe main.o 
+
+15:41:24 Build Finished. 0 errors, 0 warnings. (took 244ms)
+

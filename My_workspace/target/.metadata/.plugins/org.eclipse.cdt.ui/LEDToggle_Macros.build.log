@@ -1,0 +1,10 @@
+09:47:10 **** Incremental Build of configuration Debug for project LEDToggle_Macros ****
+make -j20 all 
+arm-none-eabi-size  LEDToggle_Macros.elf 
+   text	   data	    bss	    dec	    hex	filename
+    764	      0	   1568	   2332	    91c	LEDToggle_Macros.elf
+Finished building: default.size.stdout
+ 
+
+09:47:11 Build Finished. 0 errors, 0 warnings. (took 334ms)
+
